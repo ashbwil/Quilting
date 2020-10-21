@@ -1,16 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
 import Ping from '../components/Ping.vue';
+import Home from '../components/Home.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home,
-  },
   {
     path: '/about',
     name: 'About',
@@ -20,6 +15,11 @@ const routes = [
     path: '/ping',
     name: 'Ping',
     component: Ping,
+  },
+  {
+    path: '/Home',
+    name: 'Home',
+    component: Home,
   },
 ];
 
