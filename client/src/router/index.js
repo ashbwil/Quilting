@@ -17,7 +17,7 @@ const routes = [
     component: Ping,
   },
   {
-    path: '/Home',
+    path: '/',
     name: 'Home',
     component: Home,
   },
